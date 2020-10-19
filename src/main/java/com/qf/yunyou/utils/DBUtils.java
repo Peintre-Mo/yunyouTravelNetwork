@@ -14,7 +14,9 @@ public class DBUtils {
     public static final String DB_PROPERTIES_NAME = "db.properties";
 
     static {
-
+        /**
+         * 创建druid连接池
+         */
         try {
             //是返回一个读取指定资源的输入流
             InputStream ra = DBUtils.class.getClassLoader().getResourceAsStream(DB_PROPERTIES_NAME);
@@ -47,7 +49,11 @@ public class DBUtils {
         return instance;
     }
 
-
+    /**
+     * 获取连接的操作
+     *
+     *
+     */
     public Connection getConn() {
         Connection connection = null;
         try {

@@ -1,19 +1,27 @@
 package com.qf.yunyou.entity;
 
 
+import com.qf.yunyou.utils.AnnotationUtils;
+
 public class TabRoute {
 
   private long rid;
   private String rname;
   private double price;
+
+  @AnnotationUtils("route_introduce")
   private String routeIntroduce;
   private String rflag;
   private String rdate;
+
+  @AnnotationUtils("is_theme_tour")
   private String isThemeTour;
   private long count;
   private long cid;
   private String rimage;
   private long sid;
+
+  @AnnotationUtils("source_id")
   private String sourceId;
 
 
@@ -124,21 +132,4 @@ public class TabRoute {
     this.sourceId = sourceId;
   }
 
-  @Override
-  public String toString() {
-    return "TabRoute{" +
-            "rid=" + rid +
-            ", rname='" + rname + '\'' +
-            ", price=" + price +
-            ", routeIntroduce='" + routeIntroduce + '\'' +
-            ", rflag='" + rflag + '\'' +
-            ", rdate='" + rdate + '\'' +
-            ", isThemeTour='" + isThemeTour + '\'' +
-            ", count=" + count +
-            ", cid=" + cid +
-            ", rimage='" + rimage + '\'' +
-            ", sid=" + sid +
-            ", sourceId='" + sourceId + '\'' +
-            '}';
-  }
 }

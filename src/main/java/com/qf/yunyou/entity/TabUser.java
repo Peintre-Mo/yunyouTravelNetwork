@@ -7,7 +7,7 @@ public class TabUser {
   private String username;
   private String password;
   private String name;
-  private java.sql.Date birthday;
+  private String birthday;
   private String sex;
   private String telephone;
   private String email;
@@ -51,11 +51,11 @@ public class TabUser {
   }
 
 
-  public java.sql.Date getBirthday() {
+  public String  getBirthday() {
     return birthday;
   }
 
-  public void setBirthday(java.sql.Date birthday) {
+  public void setBirthday(String birthday) {
     this.birthday = birthday;
   }
 

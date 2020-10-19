@@ -44,13 +44,4 @@ public class TabSeller {
     this.address = address;
   }
 
-  @Override
-  public String toString() {
-    return "TabSeller{" +
-            "sid=" + sid +
-            ", sname='" + sname + '\'' +
-            ", consphone='" + consphone + '\'' +
-            ", address='" + address + '\'' +
-            '}';
-  }
 }

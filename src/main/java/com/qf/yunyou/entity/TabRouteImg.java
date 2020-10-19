@@ -1,11 +1,17 @@
 package com.qf.yunyou.entity;
 
 
+import com.qf.yunyou.utils.AnnotationUtils;
+
 public class TabRouteImg {
 
   private long rgid;
   private long rid;
+
+  @AnnotationUtils("big_pic")
   private String bigPic;
+
+  @AnnotationUtils("small_pic")
   private String smallPic;
 
 
@@ -44,13 +50,4 @@ public class TabRouteImg {
     this.smallPic = smallPic;
   }
 
-  @Override
-  public String toString() {
-    return "TabRouteImg{" +
-            "rgid=" + rgid +
-            ", rid=" + rid +
-            ", bigPic='" + bigPic + '\'' +
-            ", smallPic='" + smallPic + '\'' +
-            '}';
-  }
 }

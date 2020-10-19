@@ -4,7 +4,7 @@ package com.qf.yunyou.entity;
 public class TabFavorite {
 
   private long rid;
-  private java.sql.Date date;
+  private String date;
   private long uid;
 
 
@@ -17,11 +17,11 @@ public class TabFavorite {
   }
 
 
-  public java.sql.Date getDate() {
+  public String  getDate() {
     return date;
   }
 
-  public void setDate(java.sql.Date date) {
+  public void setDate(String  date) {
     this.date = date;
   }
 
@@ -34,12 +34,4 @@ public class TabFavorite {
     this.uid = uid;
   }
 
-  @Override
-  public String toString() {
-    return "TabFavorite{" +
-            "rid=" + rid +
-            ", date=" + date +
-            ", uid=" + uid +
-            '}';
-  }
 }

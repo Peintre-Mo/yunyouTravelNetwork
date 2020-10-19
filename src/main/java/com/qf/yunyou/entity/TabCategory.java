@@ -24,11 +24,4 @@ public class TabCategory {
     this.cname = cname;
   }
 
-  @Override
-  public String toString() {
-    return "TabCategory{" +
-            "cid=" + cid +
-            ", cname='" + cname + '\'' +
-            '}';
-  }
 }
