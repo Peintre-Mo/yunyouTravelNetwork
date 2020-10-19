@@ -8,6 +8,9 @@ public class TabRouteImg {
   private long rgid;
   private long rid;
 
+  public TabRouteImg() {
+  }
+
   @AnnotationUtils("big_pic")
   private String bigPic;
 

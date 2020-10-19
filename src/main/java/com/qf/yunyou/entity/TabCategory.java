@@ -6,6 +6,8 @@ public class TabCategory {
   private long cid;
   private String cname;
 
+  public TabCategory() {
+  }
 
   public long getCid() {
     return cid;

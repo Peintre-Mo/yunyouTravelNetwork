@@ -9,6 +9,9 @@ public class TabRoute {
   private String rname;
   private double price;
 
+  public TabRoute() {
+  }
+
   @AnnotationUtils("route_introduce")
   private String routeIntroduce;
   private String rflag;

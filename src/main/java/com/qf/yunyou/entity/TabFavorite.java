@@ -8,6 +8,9 @@ public class TabFavorite {
   private long uid;
 
 
+  public TabFavorite() {
+  }
+
   public long getRid() {
     return rid;
   }

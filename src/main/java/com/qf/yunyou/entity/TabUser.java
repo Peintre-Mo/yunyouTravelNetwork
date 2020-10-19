@@ -14,6 +14,16 @@ public class TabUser {
   private String status;
   private String code;
 
+  public TabUser() {
+  }
+
+  public TabUser(String username, String password, String name, String sex, String email) {
+    this.username = username;
+    this.password = password;
+    this.name = name;
+    this.sex = sex;
+    this.email = email;
+  }
 
   public long getUid() {
     return uid;

@@ -8,6 +8,8 @@ public class TabSeller {
   private String consphone;
   private String address;
 
+  public TabSeller() {
+  }
 
   public long getSid() {
     return sid;
